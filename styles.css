@@ -14,7 +14,7 @@ hr {
 ul {
   padding: 20px 50px 20px 50px;
 }
-.month {
+ul li:not(:last-child) {
   font-size: 18px;
   font-weight: bold;
   color: #1e88e5;
@@ -24,7 +24,7 @@ li::marker {
   color: black;
 }
 
-#month {
+ul li:last-child {
   font-size: 18px;
   font-weight: bold;
   color: red;
@@ -34,18 +34,18 @@ li::marker {
   border-left: 1px solid #ccc;
   padding-left: 20px;
 }
-.subject {
+.subjects > p {
   font-size: 18px;
   font-weight: bold;
   padding: 8px;
   color: #666565;
 }
-#hooks {
+div p:first-child {
   border: 0 solid #1e88e5;
   background-color: #e3f2fd;
   padding: 10px 10px;
 }
-.stay-consistent {
+#stay-consistent {
   color: #757575;
   font-style: italic;
   font-size: 18px;
