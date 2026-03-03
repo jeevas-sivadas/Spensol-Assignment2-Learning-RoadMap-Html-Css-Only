@@ -40,10 +40,9 @@ ul li:last-child {
   padding: 8px;
   color: #666565;
 }
-div p:first-child {
-  border: 0 solid #1e88e5;
-  background-color: #e3f2fd;
-  padding: 10px 10px;
+.subjects > p:hover {
+  background-color: #7ebdd6;
+  padding-left: 12px;
 }
 #stay-consistent {
   color: #757575;
